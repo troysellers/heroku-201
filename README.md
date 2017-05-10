@@ -510,6 +510,7 @@ If you don't want to install postgres, a tool like [Postico](https://eggerapps.a
 Once you update, jump into Salesforce to check the change. Have a look in your Heroku Connect dashboard and see if you can see the change there as well. 
 
 
-
+As usual, if you have had enough of wondering why your's isn't working.. 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
