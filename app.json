@@ -12,6 +12,6 @@
   "addons": [
     "heroku-redis",
     "heroku-postgresql",
-    "heroku-connect"
+    "herokuconnect"
   ]
 }
