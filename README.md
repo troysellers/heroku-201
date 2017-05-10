@@ -511,6 +511,7 @@ Once you update, jump into Salesforce to check the change. Have a look in your H
 
 
 As usual, if you have had enough of wondering why your's isn't working.. 
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-
+Now, if you really want some extra credit see if you can configure Redis as a [session store](http://www.ninjaframework.org/documentation/basic_concepts/sessions.html) for your application! 
