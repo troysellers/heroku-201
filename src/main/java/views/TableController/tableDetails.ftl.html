@@ -1,0 +1,20 @@
+<#import "../layout/defaultLayout.ftl.html" as layout> 
+<@layout.myLayout "Table Page">    
+
+<#if data??>
+<table>
+<#list data as rows>
+<tr>
+<#list rows as val>
+<td>${val}</td>
+</#list>
+</tr>
+</#list>
+</table>
+
+<#else>
+The account table has returned nothing.
+</#if>
+
+
+</@layout.myLayout>
