@@ -2,7 +2,7 @@
 
 # Heroku 201
 
-You have now created a Java application and configure it to run in Heroku. Hopefully you have investigated using the scale commands (or the UI) and are ready to get started on the next stage. If you haven't, clone [this](https://github.com/ibigfoot/heroku-training.git) repository to get back to the starting position for this exercise. Remember you might want to update the artifact name in the pom.xml to reflect we are now in the 201 exercise, but everything else should be the same!
+You have now created a Java application and configure it to run in Heroku. Hopefully you have investigated using the scale commands (or the UI) and are ready to get started on the next stage. If you haven't, clone [this](https://github.com/ibigfoot/heroku-101/tree/java) repository to get back to the starting position for this exercise. Remember you might want to update the artifact name in the pom.xml to reflect we are now in the 201 exercise, but everything else should be the same! 
 
 In this excercise we are going to create a clone of a Salesforce database in Postgres, then connect our Java application to the database to render to a JSON stream. We will also connect directly to our database via JDBC and explore the nature of the tables created by the Heroku Connect addon. 
 
@@ -23,13 +23,13 @@ You can do this via either the CLI or via the Dashboard, lets step through both 
 
 ### Heroku Postgres (via the CLI)
 
-Make sure you are in your heroku-201 directory.
+Make sure you are in your app directory, I have changed mine to 'heroku-201' but yours could be the same one you were working in.
 
 ```
 > cd heroku-201
 ```
 
-Let's create another app in Heroku for this one, remember our git init then Heroku create commands? 
+If you need to, create another app in Heroku. Remember our git init then Heroku create commands? If you are using the app from the previous exercise, you can skip this step.
 
 ```
 > git init
@@ -53,7 +53,7 @@ Let's initialise a git repository, add our code to it and into Heroku. Then, che
 > heroku open
 ```
 
-Excellent, now we can provision and configure our addons
+Excellent, let's take a look at how we can provision a database and other addon services.
 
 ```
 > heroku addons:services
